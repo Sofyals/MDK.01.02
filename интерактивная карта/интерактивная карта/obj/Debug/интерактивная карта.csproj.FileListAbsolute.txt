@@ -1,0 +1,11 @@
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\bin\Debug\интерактивная карта.exe.config
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\bin\Debug\интерактивная карта.exe
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\bin\Debug\интерактивная карта.pdb
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная_карта.Form1.resources
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная_карта.Properties.Resources.resources
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.exe
+\\Mac\Home\Desktop\интерактивная карта\интерактивная карта\obj\Debug\интерактивная карта.pdb

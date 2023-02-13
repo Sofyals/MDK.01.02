@@ -1,0 +1,106 @@
+﻿<Window x:Class="RoomExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoomExample"
+        mc:Ignorable="d"
+        Title="Две комнаты" Height="856" d:DesignWidth="1005.263" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid x:Name="Две_комнаты" Margin="84,79,89,154" Background="#FF82C672" Width="800" Height="550">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="484*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="128*"/>
+            <ColumnDefinition Width="398*"/>
+            <ColumnDefinition Width="398*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="#FF7DCEE6" Grid.ColumnSpan="2" Margin="-3,-1,3,1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="304*"/>
+                <RowDefinition Height="321*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="165*"/>
+                <ColumnDefinition Width="361*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock HorizontalAlignment="Left" Margin="0,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" Grid.Row="1"><Run Language="ru-ru" Text="Метраж"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" Grid.Row="1" RenderTransformOrigin="0.556,-0.392"><Run Language="ru-ru" Text="Площадь"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" Grid.Row="1"><Run Language="ru-ru" Text="Периметр"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="3.41"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.894"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run Language="ru-ru" Text="Длина"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="22" FontFamily="Segoe UI Semibold" Grid.ColumnSpan="2" Height="43"><Run Text="Число человек"/><LineBreak/><Run/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="2.881,1.168"><Run Language="ru-ru" Text="Ширина"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="356,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="1">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="3.41"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.894"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run Language="ru-ru" Text="Длина"/></TextBlock>
+            <Label x:Name="LabelNumPerson1" Content="" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Column="1" Margin="102,226,62,2"/>
+            <Label x:Name="LabelPerimeter1" Grid.Column="1" Margin="101,32,62,210" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Row="1"/>
+            <Label x:Name="LabelLength1" Content="" Grid.Column="1" Margin="102,54,60,174" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1"/>
+            <Label x:Name="LabelArea1" Content="" Grid.Column="1" Margin="102,147,60,95" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Row="1"/>
+            <Label x:Name="LabelPersonArea1" Content="" Grid.Column="1" Margin="102,230,60,12" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Row="1"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="0,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="284" FontSize="24" FontFamily="Segoe UI Black" Grid.ColumnSpan="2"><Run Language="ru-ru" Text="Первая комната"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="271" FontSize="24" FontFamily="Segoe UI Black" Grid.Column="2"><Run Language="ru-ru" Text="Вторая "/><Run Text="комната"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="5,415,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="2.342,0.17" Grid.Column="2" Grid.Row="1"><Run Language="ru-ru" Text="Метраж"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="5,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.556,-0.392" Grid.Column="2" Grid.Row="1">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Площадь"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="4,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="2.643,1.16" Grid.Column="2" Grid.Row="1"><Run Language="ru-ru" Text="Периметр"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="4,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="22" FontFamily="Segoe UI Semibold" Height="43" Grid.Column="2" Grid.Row="1"><Run Text="Число человек"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="2,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="2.881,1.168" Grid.Column="2" Grid.Row="1"><Run Language="ru-ru" Text="Ширина"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="3,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="114" FontSize="22" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.5,0.5" Grid.Column="2">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="3.41"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.894"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Длина"/></TextBlock>
+        <Label x:Name="LabelPersonArea2" Grid.Column="2" Margin="228,412,64,7" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelPersonArea2" Grid.Row="1" RenderTransformOrigin="0.722,0.629" Width="111" Height="40.5" Grid.ColumnSpan="2">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.401"/>
+                    <TranslateTransform X="-0.038" Y="0.171"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="LabelPerimeter2" Grid.Column="2" Margin="221,230,69,200" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelPerimeter2" Grid.Row="1" Grid.ColumnSpan="2" Width="111" Height="40.5"/>
+        <Label x:Name="LabelArea2" Grid.Column="2" Margin="215,320,63,95" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelArea2" Grid.Row="1" RenderTransformOrigin="0.939,0.079" Grid.ColumnSpan="2" Width="111" Height="40.5"/>
+        <TextBox x:Name="TBWidth2" HorizontalAlignment="Left" Margin="166,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Grid.Column="2" Height="40" FontSize="20" FontFamily="Segoe UI Semibold" TextChanged="TextBox_TextChanged" Grid.Row="1" Grid.ColumnSpan="2" AutomationProperties.Name="TBWidth2"/>
+        <TextBox x:Name="TBLength2" HorizontalAlignment="Left" Margin="166,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Grid.Column="2" Height="40" FontSize="20" FontFamily="Segoe UI Semibold" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2" AutomationProperties.Name="TBLength2"/>
+        <TextBox x:Name="TBNumPerson2" HorizontalAlignment="Left" Margin="166,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Grid.Column="2" Height="40" FontSize="20" FontFamily="Segoe UI Semibold" TextChanged="TextBox_TextChanged" Grid.Row="1" Grid.ColumnSpan="2" AutomationProperties.Name="TBNumPerson2"/>
+        <Button x:Name="ButtonAll" Margin="-3,537,214,-126" Grid.Row="1" Content="Посчитать вместе" FontSize="20" AutomationProperties.Name="ButtonAll" Click="ButtonAll_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="ButtonOpen1" Content="Открыть" Grid.ColumnSpan="2" Margin="-3,485,213,-68" Grid.Row="1" Click="ButtonOpen1_Click" FontSize="20" AutomationProperties.Name="ButtonOpen1"/>
+        <Button x:Name="ButtonOpen2" Margin="0,485,110,-68" Grid.Row="1" Grid.Column="2" Content="Открыть" FontSize="20" AutomationProperties.Name="ButtonOpen2" Click="ButtonOpen2_Click"/>
+        <Button x:Name="ExitButton" Content="Выход" Grid.ColumnSpan="2" Margin="288,-70,-72,112" Grid.Column="2" FontSize="22" Click="ExitButton_Click" AutomationProperties.Name="ExitButton"/>
+        <Label Content="Общая площадь" Grid.Column="2" Margin="0,545,138,-124" Grid.Row="1" FontSize="20" RenderTransformOrigin="0.27,0.644"/>
+        <Label x:Name="LabelWidth1" Content="" Grid.Column="1" Margin="125,46,65,374" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Row="1"/>
+        <Label x:Name="LabelAllArea" Content="" Grid.Column="2" Margin="201,545,91,-126" FontFamily="Segoe UI Black" FontSize="16" AutomationProperties.Name="LabelLength1" Grid.Row="1" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,8 @@
+\\Mac\Home\Desktop\c#\lab3\lab3\bin\Debug\lab3.exe.config
+\\Mac\Home\Desktop\c#\lab3\lab3\bin\Debug\lab3.exe
+\\Mac\Home\Desktop\c#\lab3\lab3\bin\Debug\lab3.pdb
+\\Mac\Home\Desktop\c#\lab3\lab3\obj\Debug\lab3.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\c#\lab3\lab3\obj\Debug\lab3.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\c#\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\c#\lab3\lab3\obj\Debug\lab3.exe
+\\Mac\Home\Desktop\c#\lab3\lab3\obj\Debug\lab3.pdb

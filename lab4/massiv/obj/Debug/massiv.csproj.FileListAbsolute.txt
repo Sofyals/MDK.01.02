@@ -1,0 +1,8 @@
+\\Mac\Home\Desktop\c#\massiv\massiv\bin\Debug\massiv.exe.config
+\\Mac\Home\Desktop\c#\massiv\massiv\bin\Debug\massiv.exe
+\\Mac\Home\Desktop\c#\massiv\massiv\bin\Debug\massiv.pdb
+\\Mac\Home\Desktop\c#\massiv\massiv\obj\Debug\massiv.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\c#\massiv\massiv\obj\Debug\massiv.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\c#\massiv\massiv\obj\Debug\massiv.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\c#\massiv\massiv\obj\Debug\massiv.exe
+\\Mac\Home\Desktop\c#\massiv\massiv\obj\Debug\massiv.pdb

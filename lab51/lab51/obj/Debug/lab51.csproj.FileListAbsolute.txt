@@ -1,0 +1,8 @@
+\\Mac\Home\Desktop\c#\lab51\lab51\obj\Debug\lab51.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\c#\lab51\lab51\obj\Debug\lab51.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\c#\lab51\lab51\obj\Debug\lab51.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\c#\lab51\lab51\bin\Debug\lab51.exe.config
+\\Mac\Home\Desktop\c#\lab51\lab51\bin\Debug\lab51.exe
+\\Mac\Home\Desktop\c#\lab51\lab51\bin\Debug\lab51.pdb
+\\Mac\Home\Desktop\c#\lab51\lab51\obj\Debug\lab51.exe
+\\Mac\Home\Desktop\c#\lab51\lab51\obj\Debug\lab51.pdb

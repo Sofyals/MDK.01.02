@@ -1,0 +1,17 @@
+﻿<Window x:Class="card.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:card"
+        mc:Ignorable="d"
+        Title="Открытка" Height="450" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:RhombusControl Header="С Новым Годом!" Description="С Новым годом! Пусть новый год принесёт много новых достижений, крепкого здоровья и любви, пусть задуманное сбудется. Пусть счастьем и добротой будет наполнен каждый дом. Пусть вдохновение и любовь сделают жизнь светлее и ярче." ColoredSource="/т.jpeg"  ></local:RhombusControl>
+            <local:RhombusControl Header="С 8 марта!" Description="Поздравляю с прекрасным праздником весны — с 8 Марта! Пусть в ваш адрес звучат слова восхищения и любви. Желаю вам всегда цвести и украшать собою этот мир." ColoredSource="/8.jpeg"  ></local:RhombusControl>
+            <local:RhombusControl Header="С 23 февраля!" Description="Здоровья Вам и благополучия,Мир на Земле Вы сохраняйте,Любимый народ наш защищайте!" ColoredSource="/23.jpeg" AutomationProperties.IsColumnHeader="True"  ></local:RhombusControl>
+            <local:RhombusControl Header="С днем рождения!" Description="Пусть тебе всегда улыбается удача, а поставленные на ближайшее время цели как можно скорее воплощаются в жизнь. Благополучия, крепкого здоровья, внутренней опоры, личностного роста, гармонии в семье, заботы и поддержки близких, солнца в душе и безграничного добра! С праздником тебя, с Днем рождения!" ColoredSource="/е.jpeg"   ></local:RhombusControl>
+        </StackPanel>
+    </Grid>
+</Window>

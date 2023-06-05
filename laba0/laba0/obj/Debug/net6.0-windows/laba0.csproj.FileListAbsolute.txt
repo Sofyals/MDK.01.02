@@ -1,0 +1,17 @@
+\\Mac\Home\Desktop\c#\laba0\laba0\bin\Debug\net6.0-windows\laba0.exe
+\\Mac\Home\Desktop\c#\laba0\laba0\bin\Debug\net6.0-windows\laba0.deps.json
+\\Mac\Home\Desktop\c#\laba0\laba0\bin\Debug\net6.0-windows\laba0.runtimeconfig.json
+\\Mac\Home\Desktop\c#\laba0\laba0\bin\Debug\net6.0-windows\laba0.dll
+\\Mac\Home\Desktop\c#\laba0\laba0\bin\Debug\net6.0-windows\laba0.pdb
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.Form1.resources
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.AssemblyInfo.cs
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.dll
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\refint\laba0.dll
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.pdb
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\laba0.genruntimeconfig.cache
+\\Mac\Home\Desktop\c#\laba0\laba0\obj\Debug\net6.0-windows\ref\laba0.dll
